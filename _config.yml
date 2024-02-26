@@ -1,0 +1,40 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+
+### content configuration ###
+title:       "ProTools 23"
+keywords:    "performance, tools, parallel programming, visual, analysis, analytics"
+description: "ProTools 2023 Website"
+source_link: "https://sc-protools-workshop.github.io/protools23"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  yellow:    '#ffd200'
+  red:       '#c41230'
+  black:     '#231f20'
+  white:     '#f8f8f8'
+  orange:    '#de782f'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  turquoise: '#0fbfcf'
+
+kramdown:
+  auto_ids:  false
+
